@@ -45,3 +45,6 @@ foreach($row in $data){
     $Total += $c
 }
 Write-Output "Day 02, question 2 answer is: $Total"
+
+
+
