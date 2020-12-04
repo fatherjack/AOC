@@ -1,9 +1,9 @@
 ############# Set up #############
 $AOC = "C:\Users\alljon\OneDrive - Quilter\Scripts\PowerShell\AdventofCode"
 Set-Location $AOC
-[System.Collections.ArrayList]$Data = get-content .\20201203.txt
-$Test = get-content .\20201203_test.txt
-$Test = get-content .\20201203_jp.txt
+[System.Collections.ArrayList]$Data = get-content .\SourceData\20201203.txt
+$Test = get-content .\SourceData\20201203_test.txt
+$Test = get-content .\SourceData\20201203_jp.txt
 
 #   $Data = $Test
 #region ####### Part 1 ########
@@ -24,7 +24,7 @@ $count
 
 #region ####### Part 2 ########
 
-#Slope 1:1 - 50 
+#Slope 1:1 - 50
 #Slope 1:3 - 148
 #Slope 1:5 - 53
 #Slope 1:7 - 64

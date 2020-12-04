@@ -2,7 +2,7 @@
 ############# Set up #############
 $AOC = "C:\Users\alljon\OneDrive - Quilter\Scripts\PowerShell\AdventofCode"
 Set-Location $AOC
-$Data = get-content .\20201202.txt
+$Data = get-content .\SourceData\20201202.txt
 
 ############# Part 1 #############
 $Total=0

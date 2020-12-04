@@ -4,7 +4,7 @@
 
 $AOC = "C:\Users\alljon\OneDrive - Quilter\Scripts\PowerShell\AdventofCode"
 sl $AOC
-$One = get-content .\2020120101.txt
+$One = get-content .\SourceData\2020120101.txt
 
 
 #### part 1 ####
