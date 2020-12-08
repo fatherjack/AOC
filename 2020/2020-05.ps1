@@ -9,7 +9,10 @@ $One = get-content .\SourceData\20201205.txt
 
 #region ### part 1 ####
 # problem statement:
-
+# bin to dec
+[convert]::ToInt32('111111',2)
+# dec to bin
+[convert]::ToString(15,2)
 
 #endregion #######
 
